@@ -5,3 +5,4 @@ This application lets a user either register as a new uesr or sign in as an exis
 2. Request money from another registered user. This sends a transfer object to the database with a "pending" status.
 3. Look at your list of past transfers.
 4. Look at your list of pending transfers. It will give you the option to accept or decline the transfer if you are the requested user.
+This application connects the client side to the server side with a RESTful API and the server side accesses data from the database using JdbcTemplate.
